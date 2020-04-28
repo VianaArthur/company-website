@@ -66,6 +66,10 @@
 }
 
 /* Flex Card */
+.flex-card.flex-reverse .row {
+  flex-direction: row-reverse;
+}
+
 .flex-card .row {
   display: flex;
   flex-direction: row;
