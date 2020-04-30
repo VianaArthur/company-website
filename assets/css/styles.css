@@ -39,15 +39,15 @@ img {
   width: 100%;
 }
 
-/* Main Header */
-.main-header {
+/* Hero */
+.hero {
   background: url("../images/home/showcase.jpg") no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: #fff;
 }
 
-.main-header::before {
+.hero::before {
   content: "";
   position: absolute;
   top: 0;
@@ -57,11 +57,11 @@ img {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.main-header .navbar {
+.hero .navbar {
   z-index: 20;
 }
 
-.main-header .content * {
+.hero .content * {
   z-index: 10;
 }
 
@@ -102,7 +102,7 @@ img {
 }
 
 /* Content */
-.main-header .content {
+.hero .content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -112,11 +112,11 @@ img {
   padding: 0 20px;
 }
 
-.main-header .content h1 {
+.hero .content h1 {
   font-size: 55px;
 }
 
-.main-header .content p {
+.hero .content p {
   font-size: 23px;
   max-width: 600px;
   margin: 20px 0 30px;
