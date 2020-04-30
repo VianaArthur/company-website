@@ -57,7 +57,11 @@ img {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.main-header * {
+.main-header .navbar * {
+  z-index: 20;
+}
+
+.main-header .content * {
   z-index: 10;
 }
 
@@ -200,4 +204,36 @@ img {
 
 .footer a:hover {
   color: #28a745;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-evenly;
+  }
+
+  .navbar nav a {
+    padding: 10px 7px;
+    margin: 0 3px;
+  }
+
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .flex-card .column,
+  .flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .flex-grid .column img {
+    height: unset;
+  }
+
+  .team img {
+    width: 70%;
+  }
 }
