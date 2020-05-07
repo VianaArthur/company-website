@@ -1,11 +1,12 @@
-# company-website
+# Company Website
 
-- A generic **Business Company website**.
+This is a generic **responsive** Business Company website made using `HTML`, `CSS` and `JS`.
 
-- Technologies used: `HTML`, `CSS` and `JS`.
+- Requires using [jQuery](https://jquery.com/) and [lightbox](https://lokeshdhakar.com/projects/lightbox2/).
 
-- Requires using `jQuery` and `lightbox`.
+## Preview
 
-- **Responsive layout** for desktop and mobile.
+[![Business Company Website](https://raw.github.com/VianaArthur/company-website/master/assets/images/preview.png
+ "Business Company Website")](https://vianaarthur.github.io/company-website/)
 
-* Can be accessed at [Business Company](https://vianaarthur.github.io/company-website/).
+**[View Live Preview](https://vianaarthur.github.io/company-website/)**
